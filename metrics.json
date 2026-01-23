@@ -1,0 +1,9 @@
+{
+    "f1_score": 0.8111111111111111,
+    "config": {
+        "scaling": false,
+        "alpha": 1.0,
+        "n_estimators": 100,
+        "max_depth": 15
+    }
+}
