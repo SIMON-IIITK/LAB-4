@@ -6,13 +6,7 @@ pipeline {
     }
 
     stages {
-
-        stage('Clone Repository') {
-            steps {
-                git 'https://github.com/SIMON-IIITK/LAB-4.git'
-            }
-        }
-
+        
         stage('Build Docker Image') {
             steps {
                 script {
